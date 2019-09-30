@@ -1,0 +1,73 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+% 
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{watson-cv}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Michelle}{WaTsOn}
+{ 
+\urlstyle{same} 
+Computer Engineering Candidate \\
+\href{http://kunalchandan.github.io}{kunalchandan.github.io}
+\hfill
+\href{http://github.com/kunalchandan}{github.com/kunalchandan}\\
+\href{mailto:kchandan@uwaterloo.ca}{kchandan@uwaterloo.ca}
+\hfill
+647-785-1313
+\hfill 
+\href{https://www.linkedin.com/in/kunal-chandan/}{linkedin.com/in/kunal-chandan}
+}
+\begin{minipage}[t]{0.2\textwidth}
+\end{minipage}
+\begin{minipage}[t]{0.8\textwidth}
+\\
+\vspace{50}
+\large
+MaRS Centre, Suite 510 \\
+661 University Avenue \\
+Toronto, Ontario\\
+M5G 0A3\\
+\\
+To whom it may concern,
+
+I am of the gays 
+and i suck the big
+
+Sincerely,\\
+\\
+\end{minipage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% One Day this will be useful, not now though
+%\section{Publications} 
+%\renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
+%\bibliographystyle{abbrv}
+%\bibliography{publications}
+%\nocite{*}
+\end{document}  \documentclass[]{article}
