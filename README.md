@@ -1,3 +1,3 @@
 # Resume-Latex
 
-Resume repo
+Resume + cover letter repo
